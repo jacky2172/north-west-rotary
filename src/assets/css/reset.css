@@ -1,0 +1,14 @@
+br{display:block; line-height:1.6em;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+ol,ul{list-style:none;}
+input,textarea{-webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; outline:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:''; content:none;}
+strong,b{font-weight:bold;}
+em,i{font-style:italic;}
+table{border-collapse:collapse; border-spacing:0;}
+img{border:0; max-width:100%;}
+a{text-decoration: none}
+#w{display:block; margin:0 auto; padding:2px 3px;}
+.slidernav a{padding:0;}
+p { padding:0; margin: 0 0 10px 0;}

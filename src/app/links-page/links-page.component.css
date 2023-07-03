@@ -1,0 +1,63 @@
+.links-list {
+	padding: 15px;
+	text-align: center;
+}
+.links-list a .pic {
+	border: solid 1px #ccc;
+	overflow: hidden;
+	border-radius: 20px;
+	-o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.links-list a .pic img{
+	-o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.links-list a:hover .pic img {
+	-webkit-filter: brightness(110%);
+	filter: brightness(110%);
+}
+.links-list a:hover .pic {
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, .1);
+}
+
+/*文字*/
+.links-list a .information{
+	padding: 10px 0 30px 0;
+}
+.links-list a .information .title {
+    font-size: 16px;
+	font-weight: bold;
+}
+.links-list a .information .title {
+	color: #555;
+	-o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.links-list a:hover .information .title {
+	color: #F90;
+	background-color: #f7a81b;
+	background: -webkit-gradient(linear, left top, right top, color-stop(20%, #f7a81b), color-stop(80%, #d71b69));
+    background: -webkit-linear-gradient(left, #f7a81b 20%, #d71b69 80%);
+	background: linear-gradient(90deg, #f7a81b 0%, #d71b69 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*標題*/
+h1{
+	font-size: 28px;
+    color: #006bb7;
+}
+.titleline {
+    border-bottom: #006bb7 2px solid;
+    width: 33.33%;
+    margin: 10px auto 30px auto;
+}
