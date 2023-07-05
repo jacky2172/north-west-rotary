@@ -16,4 +16,13 @@
 
 export const environment = {
   production: true
+  firebase: {
+    apiKey: "AIzaSyBMKeabQBpqvRudyZy078wSg1jySe3VE04",
+    authDomain: "north-west-rotary-40980.firebaseapp.com",
+    projectId: "north-west-rotary-40980",
+    storageBucket: "north-west-rotary-40980.appspot.com",
+    messagingSenderId: "1094219232458",
+    appId: "1:1094219232458:web:c3467efcef236bfabb7033",
+    measurementId: "G-JGGKKZV1M1"
+  },
 };

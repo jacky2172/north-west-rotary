@@ -1,0 +1,175 @@
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="mobile-nav hide-nav hidden-md hidden-lg">
+  <ul class="mobile-navigation menu list-h">
+    <li>
+      <a href="#">本社沿革</a>
+      <ul>
+        <li>
+          <a
+            routerLink="/introduce"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >介紹</a
+          >
+        </li>
+        <li><a href="../area_information/ri_notice.php">社長的話</a></li>
+        <li><a href="../area_information/index.php?id=9">歷屆社長</a></li>
+        <li>
+          <a href="../area_information/director_notice.php">社員介紹</a>
+        </li>
+        <li><a href="../ebooks">組織表</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="../news">最新消息</a>
+      <ul>
+        <li>
+          <a href="../member/index.php?id=1">活動公告</a>
+        </li>
+        <li>
+          <a href="../member/index.php?id=2">活動剪影<</a>
+        </li>
+        <li>
+          <a href="../member/index.php?id=3">行事曆</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">扶輪知識</a>
+      <ul>
+        <li><a href="../member/index.php?id=1">2022社序手冊</a></li>
+        <li><a href="../member/index.php?id=2">中華扶輪教育基金會</a></li>
+        <li><a href="../member/index.php?id=3">扶輪月刊</a></li>
+      </ul>
+    </li>
+    <li class="">
+      <a
+        routerLink="/links"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >相關連結</a
+      >
+    </li>
+  </ul>
+
+  <button type="button" class="close" aria-hidden="true">
+    <span>CLOSE </span><i class="fa fa-times"></i>
+  </button>
+</div>
+
+<!-- Header -->
+<header id="header" class="site-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 logo">
+        <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">
+          <img
+            class="pc"
+            src="/assets/images/links/Rotary_3482.png"
+            height="60px"
+          />
+          <img
+            class="mobile"
+            src="/assets/images/Rotary_logo.png"
+            height="45px"
+          />
+        </a>
+        <img
+          class="fr pc"
+          src="/assets/images/23_24_Rotary_Logo.png"
+          height="60px"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12 header_bar">
+    <div class="container">
+      <div class="row">
+        <nav id="navigation" class="hidden-sm hidden-xs">
+          <ul id="main-nav" class="main-navigation drop-down-menu">
+            <li class="">
+              <a href="../area_information">本社沿革</a>
+              <ul>
+                <li>
+                  <a
+                    routerLink="/introduce"
+                    routerLinkActive="active"
+                    ariaCurrentWhenActive="page"
+                    ><b>介紹</b></a
+                  >
+                </li>
+                <li>
+                  <a href="../area_information/ri_notice.php"
+                    ><b>社長的話</b></a
+                  >
+                </li>
+                <li>
+                  <a href="../area_information/ri_notice.php"
+                    ><b>歷屆社長</b></a
+                  >
+                </li>
+                <li>
+                  <a href="../area_information/ri_notice.php"
+                    ><b>社員介紹</b></a
+                  >
+                </li>
+                <li>
+                  <a href="../area_information/ri_notice.php"><b>組織表</b></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="../news">最新消息</a><
+              <ul>
+                <li>
+                  <a href="../member/index.php?id=1"><b>活動公告</b></a>
+                </li>
+                <li>
+                  <a href="../member/index.php?id=2"><b>活動剪影</b></a>
+                </li>
+                <li>
+                  <a href="../member/index.php?id=3"><b>行事曆</b></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="../member">扶輪知識</a>
+              <ul>
+                <li>
+                  <a href="../member/index.php?id=1"><b>2022社序手冊</b></a>
+                </li>
+                <li>
+                  <a href="../member/index.php?id=2"
+                    ><b>中華扶輪教育基金會<br />「扶輪武功秘笈」</b></a
+                  >
+                </li>
+                <li>
+                  <a href="../member/index.php?id=3"><b>扶輪月刊</b></a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a
+                routerLink="/links"
+                routerLinkActive="active"
+                ariaCurrentWhenActive="page"
+                >相關連結</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- menu 按鈕 -->
+        <a
+          href="#mobile-menu"
+          class="visible-xs visible-sm mobile-menu-trigger"
+        >
+          <i class="fa fa-reorder"></i>
+        </a>
+      </div>
+    </div>
+    <!-- //.row -->
+  </div>
+  <!-- //.container -->
+</header>

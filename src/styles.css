@@ -1,8 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
+body{font:16px/1.85em Microsoft JhengHei,Arial,Helvetice Neue,sans-serif; color:#333; font-weight:normal; font-style:normal; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%;}
 /*body{font:16px/1.85em Microsoft JhengHei,Arial,Helvetice Neue,sans-serif; color:#333; font-weight:normal; font-style:normal; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%; background: #f4f4f4;}*/
 a,a:hover,a:focus{text-decoration:none; outline: none;}
 h1,h2,h3,h4,h5,h6{font-family:Microsoft JhengHei,Arial,Helvetice Neue,sans-serif;}
@@ -18,7 +14,7 @@ h1{
 a {color: #2569b3;text-decoration: none;}
 a:hover, a:focus {color: #FF9800;text-decoration: none;}
 
-/*碰觸變型*/
+/*ç¢°è§¸è®Šåž‹*/
 .transition{
     -o-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -50,7 +46,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 	background: -webkit-linear-gradient(top, #2590d4 0%,#2d478f 100%);  /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #2590d4 0%,#2d478f 100%);  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2590d4', endColorstr='#2d478f',GradientType=0 );  /* IE6-9 */
-	background: #7f3187 url(./assets/images/bg001.jpg) center center;
+	background: #7f3187 url(/assets/images/bg001.jpg) center center;
 }
 .fl{ float:left;}
 .fr{ float:right;}
@@ -60,7 +56,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 **************************************************************/
 /* banner2 */
 .fixed_bg_h360{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/banner.jpg) no-repeat fixed top center ;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/banner.jpg) no-repeat fixed top center ;
 	height:360px;
 	position: relative;
 }
@@ -86,7 +82,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 /* main */
 .main{
 	padding: 80px 25px;
-	background: url(./assets/images/bg005.png) no-repeat bottom right;
+	/*background: url(/assets/images/bg005.png) no-repeat bottom right;*/
 }
 /* sidebar */
 .sidebar {
@@ -107,7 +103,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
     font-size: 1.4em;
     line-height: 1.3em;
     color: #282828;
-    font-family: "微軟正黑體";
+    font-family: "å¾®è»Ÿæ­£é»‘é«”";
     font-weight: 600;
     display: block;
     max-width: 90%;
@@ -125,7 +121,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
     font-weight: 900;
 }
 
-/* 附件 */
+/* é™„ä»¶ */
 .file{padding-top: 36px;}
 .file a{
 	color: #000;
@@ -139,7 +135,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 .file a i{color: #00BCD4;}
 
 /**************************************************************
-								手機選單  Mobile Menu Styling
+								æ‰‹æ©Ÿé¸å–®  Mobile Menu Styling
 **************************************************************/
 .mobile-menu-trigger {position: absolute;right: 13px;top: -49px;display: block;width: 35px;height: 35px;text-align: center;}
 .mobile-menu-trigger i {font-size: 25px;color: #2569b3;}
@@ -173,9 +169,9 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 .mobile-navigation{padding-left:0px}
 
 /**************************************************************
-								手機下拉式選單 ( nav.js 為驅動 )
+								æ‰‹æ©Ÿä¸‹æ‹‰å¼é¸å–® ( nav.js ç‚ºé©…å‹• )
 **************************************************************/
-#mobile-menu ul li ul{ display:none;}/*預設隱藏*/
+#mobile-menu ul li ul{ display:none;}/*é è¨­éš±è—*/
 #mobile-menu ul li{position: relative;}
 
 .mobile-nav ul ul li a{
@@ -212,7 +208,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 	content: "\f068";
 	color: #FFF;
 }
-/*固定 body*/
+/*å›ºå®š body*/
 .menu-open{
 	overflow: hidden;
     position: fixed;
@@ -231,7 +227,7 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 }
 
 /**************************************************************
-								電腦版選單  PC Menu Styling
+								é›»è…¦ç‰ˆé¸å–®  PC Menu Styling
 **************************************************************/
 .main-navigation { width: 100%; text-align: center; margin-bottom:0px;-webkit-padding-start: 0;}
 .main-navigation > li {
@@ -251,32 +247,32 @@ a:hover, a:focus {color: #FF9800;text-decoration: none;}
 	position: relative;
 }
 .main-navigation > li:hover, .main-navigation > li.now {
-	background-color:#662d91;
+	background-color: rgb(0 0 0 / 20%);
 	box-shadow: 1px 0px 1px rgba(0, 0, 0, .3);
 }
 .main-navigation > li:hover > a, .main-navigation > li.now > a {
 	text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
 }
-/*上槓*/
-.main-navigation > li:hover > a:before, .main-navigation > li.now > a:before {
+/*ä¸Šæ§“*/
+/*.main-navigation > li:hover > a:before, .main-navigation > li.now > a:before {
 	content: "";
     position: absolute;
     bottom: 100%;
-    background: #662d91;
+    background: rgb(0 0 0 / 30%);
     height: 4px;
     width: 100%;
 	left: 0;
-}
-/*三角*/
-.main-navigation > li:hover > a:after, .main-navigation > li.now > a:after {
+}*/
+/*ä¸‰è§’*/
+/*.main-navigation > li:hover > a:after, .main-navigation > li.now > a:after {
 	content: " ";
     border-style: solid;
     border-width: 0 4px 4px 0;
-    border-color: transparent  transparent #13214a transparent;
+    border-color: transparent  transparent rgb(0 0 0 / 30%) transparent;
     position: absolute;
     top: -4px;
     right: -4px;
-}
+}*/
 button.close{
 	width: 100%;
     height: 40px;
@@ -305,9 +301,7 @@ button.close{
 **************************************************************/
 .footer{
 	padding: 40px 0;
-	box-shadow: inset 0 3px #fff;
 	background-color: #dcdcdc;
-	background-image: url(./assets/images/bg003.png), url(./assets/images/bg004.png);
     background-attachment: scroll, scroll;
     background-repeat: repeat, no-repeat;
     background-position: center, left;
@@ -338,15 +332,14 @@ button.close{
 }
 
 
-/*版權宣告*/
+/*ç‰ˆæ¬Šå®£å‘Š*/
 .copyright {
 	font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
 	background: #006bb7;
 	padding: 12px 0;
 	height: 50px;
-	box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.3);
-	background: #7f3187 url(./assets/images/bg002.jpg) center center;
+	background: #7f3187 url(/assets/images/bg002.jpg) center center;
 }
 .copyright a {
     color: rgba(255, 255, 255, 0.7);
@@ -359,7 +352,7 @@ button.close{
     color: rgba(255, 255, 255, 1);
 }
 /**************************************************************
-										浮動式 GOTOP
+										æµ®å‹•å¼ GOTOP
 **************************************************************/
 #gotop {
     display: none;
@@ -386,14 +379,14 @@ button.close{
 }
 
 /**************************************************************
-										電腦版下拉式選單
+										é›»è…¦ç‰ˆä¸‹æ‹‰å¼é¸å–®
 **************************************************************/
-ul { /* 取消ul預設的內縮及樣式 */
+ul { /* å–æ¶ˆulé è¨­çš„å…§ç¸®åŠæ¨£å¼ */
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-ul.drop-down-menu > li > ul {/*隱藏次選單*/
+ul.drop-down-menu > li > ul {/*éš±è—æ¬¡é¸å–®*/
 	position: absolute;
     z-index: -1;
     top: 100%;
@@ -405,13 +398,13 @@ ul.drop-down-menu > li > ul {/*隱藏次選單*/
     transition: opacity 0.3s;
     left: -99999px;
 }
-ul.drop-down-menu > li:hover > ul { /*滑鼠滑入展開次選單*/
+ul.drop-down-menu > li:hover > ul { /*æ»‘é¼ æ»‘å…¥å±•é–‹æ¬¡é¸å–®*/
 	opacity: 1;
 	width: 1170px;
     left: calc((100% - 1170px)/2);
 	padding: 10px;
 }
-ul.drop-down-menu > li > ul > li {/*次選單項目*/
+ul.drop-down-menu > li > ul > li {/*æ¬¡é¸å–®é …ç›®*/
     display: block;
     -o-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -422,7 +415,7 @@ ul.drop-down-menu > li > ul > li {/*次選單項目*/
     float: left;
     padding: 10px;
 }
-ul.drop-down-menu > li > ul > li > a font { /*次選單文字*/
+ul.drop-down-menu > li > ul > li > a font { /*æ¬¡é¸å–®æ–‡å­—*/
 	font-weight: bold;
 	background:#ff5a5b;
     color: #FFF;
@@ -443,7 +436,7 @@ ul.drop-down-menu > li > ul > li:nth-of-type(3) > a font{background:#FF9800;}
 ul.drop-down-menu > li > ul > li:nth-of-type(4) > a font{background:#4caf50;}
 ul.drop-down-menu > li > ul > li:nth-of-type(5) > a font{background:#e91e63;}
 
-/*次選單文字2-藍邊*/
+/*æ¬¡é¸å–®æ–‡å­—2-è—é‚Š*/
 ul.drop-down-menu > li > ul > li > a b {
 	background: #f2f2f2;
     border-left: solid 2px #2196F3;
@@ -461,13 +454,13 @@ ul.drop-down-menu > li > ul > li > a b {
     transition: all .3s ease;
 }
 
-/*黃邊*/
+/*é»ƒé‚Š*/
 ul.drop-down-menu > li > ul > li:nth-of-type(2n-1) > a:nth-of-type(2n-1) b , ul.drop-down-menu > li > ul > li:nth-of-type(2n) > a:nth-of-type(2n) b{border-left: solid 2px #FF9800;}
 
-/*滑過文字*/
+/*æ»‘éŽæ–‡å­—*/
 ul.drop-down-menu > li > ul > li > a b:hover {background: transparent; color: #FFF;}
 
-/*滑過特效-藍*/
+/*æ»‘éŽç‰¹æ•ˆ-è—*/
 ul.drop-down-menu > li > ul > li > a b:before {
 	content: "";
     position: absolute;
@@ -482,27 +475,27 @@ ul.drop-down-menu > li > ul > li > a b:before {
     transition: all .3s ease;
 }
 
-/*滑過特效-黃*/
+/*æ»‘éŽç‰¹æ•ˆ-é»ƒ*/
 ul.drop-down-menu > li > ul > li:nth-of-type(2n-1) > a:nth-of-type(2n-1) b:before , ul.drop-down-menu > li > ul > li:nth-of-type(2n) > a:nth-of-type(2n) b:before{background: #FF9800;}
 
 ul.drop-down-menu > li > ul > li > a:hover b:before {width: 100%;}
 
-/*小箭頭-藍*/
+/*å°ç®­é ­-è—*/
 ul.drop-down-menu > li > ul > li > a b:after {
     position: absolute;
-    content: "＞";
+    content: "ï¼ž";
     font-size: 1.3rem;
     right: 10px;
 	color: #2196F3;
 }
 
-/*小箭頭-黃*/
+/*å°ç®­é ­-é»ƒ*/
 ul.drop-down-menu > li > ul > li:nth-of-type(2n-1) > a:nth-of-type(2n-1) b:after , ul.drop-down-menu > li > ul > li:nth-of-type(2n) > a:nth-of-type(2n) b:after{color: #FF9800;}
 
 ul.drop-down-menu > li > ul > li > a:hover b:after {color: #FFF!important;}
 
-/****** 以下分區MENU專用 ******/
-/*邊*/
+/****** ä»¥ä¸‹åˆ†å€MENUå°ˆç”¨ ******/
+/*é‚Š*/
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(1) > a:nth-of-type(1) b {border-left: solid 2px #2196F3;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(2) > a:nth-of-type(1) b {border-left: solid 2px #f7a81b;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(3) > a:nth-of-type(1) b {border-left: solid 2px #00a3e1;}
@@ -513,7 +506,7 @@ ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(2) > a:nth-of-type(
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(3) > a:nth-of-type(2) b {border-left: solid 2px #8b8c8e;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(4) > a:nth-of-type(2) b {border-left: solid 2px #006ab6;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(5) > a:nth-of-type(2) b {border-left: solid 2px #e32526;}
-/*箭頭*/
+/*ç®­é ­*/
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(1) > a:nth-of-type(1) b:after {color: #2196F3;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(2) > a:nth-of-type(1) b:after {color: #f7a81b;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(3) > a:nth-of-type(1) b:after {color: #00a3e1;}
@@ -524,7 +517,7 @@ ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(2) > a:nth-of-type(
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(3) > a:nth-of-type(2) b:after {color: #8b8c8e;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(4) > a:nth-of-type(2) b:after {color: #006ab6;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(5) > a:nth-of-type(2) b:after {color: #e32526;}
-/*滑過*/
+/*æ»‘éŽ*/
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(1) > a:nth-of-type(1) b:before {background: #2196F3;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(2) > a:nth-of-type(1) b:before {background: #f7a81b;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(3) > a:nth-of-type(1) b:before {background: #00a3e1;}
@@ -536,7 +529,7 @@ ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(3) > a:nth-of-type(
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(4) > a:nth-of-type(2) b:before {background: #006ab6;}
 ul.drop-down-menu > li > ul.partition_color > li:nth-of-type(5) > a:nth-of-type(2) b:before {background: #e32526;}
 
-ul.drop-down-menu > li > ul > li > a span { /*包圖片用*/
+ul.drop-down-menu > li > ul > li > a span { /*åŒ…åœ–ç‰‡ç”¨*/
 	float:left;
 	width:100%;
 	height: 130px;
@@ -549,7 +542,7 @@ ul.drop-down-menu > li > ul > li > a span { /*包圖片用*/
 	background-image: linear-gradient(135deg, rgba(247, 168, 27, .01) 0%, rgba(247, 168, 27, .2) 100%);
 }
 
-ul.drop-down-menu > li > ul > li > a img { /*次選單圖片*/
+ul.drop-down-menu > li > ul > li > a img { /*æ¬¡é¸å–®åœ–ç‰‡*/
 	-o-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -557,27 +550,27 @@ ul.drop-down-menu > li > ul > li > a img { /*次選單圖片*/
 	max-height: 130px;
 }
 
-ul.drop-down-menu > li > ul > li > a:hover img { /*滑過圖片*/
+ul.drop-down-menu > li > ul > li > a:hover img { /*æ»‘éŽåœ–ç‰‡*/
 	-webkit-filter: brightness(110%);
 	filter: brightness(110%);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-ul.drop-down-menu > li > ul > li > a:hover font { /*滑過文字*/
+ul.drop-down-menu > li > ul > li > a:hover font { /*æ»‘éŽæ–‡å­—*/
  	-webkit-filter: brightness(120%);
 	filter: brightness(120%);
 }
 
-/****** 以下次次選單內容 ******/
+/****** ä»¥ä¸‹æ¬¡æ¬¡é¸å–®å…§å®¹ ******/
 
-ul.drop-down-menu > li > ul > li > ul {/*次次選單*/
+ul.drop-down-menu > li > ul > li > ul {/*æ¬¡æ¬¡é¸å–®*/
     float: left;
     border-left: solid 1px #e6e6e6;
 	width: 100%;
 }
 
-ul.drop-down-menu > li > ul > li > ul > li {/*次次選單項目*/
+ul.drop-down-menu > li > ul > li > ul > li {/*æ¬¡æ¬¡é¸å–®é …ç›®*/
     display: block;
     -o-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -587,7 +580,7 @@ ul.drop-down-menu > li > ul > li > ul > li {/*次次選單項目*/
     float: left;
 }
 
-ul.drop-down-menu > li > ul > li > ul > li > a { /*次次選單文字*/
+ul.drop-down-menu > li > ul > li > ul > li > a { /*æ¬¡æ¬¡é¸å–®æ–‡å­—*/
     color: #000!important;
     line-height: 40px;
     width: 100%;
@@ -614,7 +607,7 @@ ul.drop-down-menu > li > ul > li > ul > li:hover {
 }
 
 /**************************************************************
-										 頁碼 Pagination
+										 é ç¢¼ Pagination
 **************************************************************/
 .pagination a{
     color: #888;
@@ -685,7 +678,7 @@ ul.drop-down-menu > li > ul > li > ul > li:hover {
 }
 }
 
-/*jQuery插件tablesorter 表格排序樣式*/
+/*jQueryæ’ä»¶tablesorter è¡¨æ ¼æŽ’åºæ¨£å¼*/
 #table_style thead tr .header{cursor: pointer;}
 #table_style thead tr .headerSortUp, #table_style thead tr .headerSortDown{background-color: #f2f2f2}
 #table_style thead tr .header .fa-caret-down{color: rgba(0, 107, 183, 0.5);}

@@ -1,3 +1,4 @@
+<app-header></app-header>
 <!-- banner -->
 <section class="fixed_bg_h360">
   <div class="title_box wow fadeIn">
@@ -5,7 +6,6 @@
     <span class="banner_shadow">相關連結</span>
   </div>
 </section>
-
 <!-- main -->
 <section class="main container wow fadeInUp">
   <div class="row">
@@ -96,3 +96,23 @@
   </div>
   <!-- End .row -->
 </section>
+<app-footer></app-footer>
+<script type="text/javascript">
+  $(function () {
+    $("#gotop").click(function () {
+      jQuery("html,body").animate(
+        {
+          scrollTop: 0,
+        },
+        1000
+      );
+    });
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        $("#gotop").fadeIn("fast");
+      } else {
+        $("#gotop").stop().fadeOut("fast");
+      }
+    });
+  });
+</script>

@@ -15,13 +15,21 @@ import { AppComponent } from './app.component';
 import { NewsPageComponent } from './news-page/news-page.component';
 import { HeaderComponent } from './header/header.component';
 import { LinksPageComponent } from './links-page/links-page.component';
+import { IndexPageComponent } from './index-page/index-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { FooterComponent } from './footer/footer.component';
+import { IntroducePageComponent } from './introduce-page/introduce-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewsPageComponent,
     HeaderComponent,
-    LinksPageComponent
+    LinksPageComponent,
+    IndexPageComponent,
+    HomePageComponent,
+    FooterComponent,
+    IntroducePageComponent
   ],
   imports: [
     BrowserModule,
